@@ -1,4 +1,6 @@
-export default data = [
+
+
+ const data = [
     {
         id:181808,
         vote_average:7.2,
@@ -17,4 +19,61 @@ export default data = [
         overview:"Il y a bien longtemps, dans une galaxie très lointaine... La guerre civile fait rage entre l'Empire galactique et l'Alliance rebelle. Capturée par les troupes de choc de l'Empereur menées par le sombre et impitoyable Dark Vador, la princesse Leia Organa dissimule les plans de l’Étoile Noire, une station spatiale invulnérable, à son droïde R2-D2 avec pour mission de les remettre au Jedi Obi-Wan Kenobi. Accompagné de son fidèle compagnon, le droïde de protocole C-3PO, R2-D2 s'échoue sur la planète Tatooine et termine sa quête chez le jeune Luke Skywalker. Rêvant de devenir pilote mais confiné aux travaux de la ferme, ce dernier se lance à la recherche de ce mystérieux Obi-Wan Kenobi, devenu ermite au cœur des montagnes désertiques de Tatooine...",
         release_date:"1977-05-25"
     }
-]
+];
+
+export default data
+
+
+// const Item = ({ title,text,date }) => (
+//     <View style={styles.item}>
+//       <Text style={styles.title}>{title}</Text>
+//       <Text style={styles.text}>{text}</Text>
+//       <Text style={styles.date}>{date}</Text>
+
+//     </View>
+//   );
+  
+//   export const App = () => {
+//     const renderItem = ({ item }) => (
+//       <Item title={item.title} text={item.overview} date={item.release_date} />
+
+//     );
+  
+//     return (
+//       <SafeAreaView style={styles.container}>
+//         <FlatList
+//           data={data}
+//           renderItem={renderItem}
+//           keyExtractor={item => item.id}
+//         />
+//       </SafeAreaView>
+//     );
+//   }
+  
+//   const styles = StyleSheet.create({
+//     container: {
+//       flex: 1,
+//       marginTop: StatusBar.currentHeight || 0,
+//     },
+//     item: {
+//       backgroundColor: '#4444',
+//       padding: 20,
+//       marginVertical: 8,
+//     },
+//     title: {
+//       fontSize: 32,
+//     },
+
+//     text : {
+//         marginTop:10,
+//         fontSize : 24,
+//     },
+
+//     date :{
+//         marginTop:20,
+//         fontSize: 16,
+//         fontWeight:'bold'
+//     }
+//   });
+//   export default App ;
+
